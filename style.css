@@ -104,11 +104,34 @@ h2.title {margin-bottom: 23px;}
 
 /* ================= EXPECTATIONS ================== */
 
+.expectations {
+  padding: 85px 0 75px;  
+  height: 607px;
+  background-color: #EFEFEF;
+}
+
 h2.exp-header {
   font: 30px/1 Roboto, sans-serif;
   text-align: center;
   text-transform: uppercase;
   color: #252525;
+
+  margin-bottom: 18px;
+}
+
+.exp-devider {
+  width: 220px;
+  height: 7px;
+  margin: 0 auto;
+  margin-bottom: 18px;
+
+  background-color: #F9BF3B;
+}
+
+.exp-subheader {
+  font: 23px/1 Roboto, sans-serif;
+  text-align: center;
+  color: #4A4A4A;
 }
 
 .exp-list {
