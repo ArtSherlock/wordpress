@@ -132,6 +132,8 @@ h2.exp-header {
   font: 23px/1 Roboto, sans-serif;
   text-align: center;
   color: #4A4A4A;
+
+  margin-bottom: 45px;
 }
 
 .exp-list {
@@ -141,4 +143,12 @@ h2.exp-header {
 
 .exp-item {
   width: 342px;
+}
+
+.exp-img {margin-bottom: 25px;}
+
+.exp-txt {
+  font: 300 15px/21px Roboto, sans-serif;
+  text-align: center;
+  color: #4A4A4A;
 }
