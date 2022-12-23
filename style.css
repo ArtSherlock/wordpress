@@ -23,4 +23,5 @@
 .logo .logo-txt {
   /* display: block; */
   margin: 0 auto;
+  font: 500 15px/24px Roboto, sans-serif;
 }
