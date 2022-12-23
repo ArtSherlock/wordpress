@@ -5,8 +5,19 @@
   padding: 0;
 }
 
-ul {list-style: none;}
-img {max-width: 100%;}
+body {
+  font-family: Roboto, sans-serif;
+  color: #4A4A4A;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 .container {
   width: 1140px;
@@ -107,7 +118,7 @@ h2.title {margin-bottom: 23px;}
 
 .expectations {
   padding: 85px 0 75px;  
-  height: 607px;
+  min-height: 607px;
   background-color: #EFEFEF;
 }
 
@@ -132,7 +143,6 @@ h2.exp-header {
 .exp-subheader {
   font: 23px/1 Roboto, sans-serif;
   text-align: center;
-  color: #4A4A4A;
 
   margin-bottom: 45px;
 }
@@ -151,5 +161,30 @@ h2.exp-header {
 .exp-txt {
   font: 300 15px/21px Roboto, sans-serif;
   text-align: center;
-  color: #4A4A4A;
+}
+
+
+/* =================== OPTIMIZATION =========== */
+
+.optimization {
+  min-height: 550px;
+  padding: 108px 0 60px;
+
+  background: url(img/woman_bg.png) 150px bottom no-repeat;
+}
+
+.optimization h2 {
+  font: 900 30px/1 Roboto, sans-serif;
+  text-transform: uppercase;
+  color: #299CBD;
+
+  padding-left: 390px;
+  margin-bottom: 20px;
+}
+
+.optimization p {
+  font: 300 17px/27px Roboto, sans-serif;
+  
+  padding-left: 390px;
+  margin-bottom: 14px;
 }
