@@ -110,3 +110,12 @@ h2.exp-header {
   text-transform: uppercase;
   color: #252525;
 }
+
+.exp-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.exp-item {
+  width: 342px;
+}
