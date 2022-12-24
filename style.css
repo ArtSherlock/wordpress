@@ -259,3 +259,59 @@ h2.plain-header {
 
   margin-bottom: 45px;
 }
+
+
+/* ======================= WEBINAR ======================= */
+
+.webinar {
+  min-height: 512px;
+  padding: 80px 0 50px;
+}
+
+.webinar-img {
+  display: block;
+  margin: 0 auto;
+
+  margin-bottom: 36px;
+}
+
+.webinar p {text-align: center}
+
+.first {
+  margin-bottom: 30px;
+
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.time {
+  font: 900 36px/1 Roboto, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: #299CBD;
+
+  margin-bottom: 23px;
+}
+
+.hurry-up {font-size: 23px;}
+
+
+/* ==================== FOOTER =========================== */
+
+footer {
+  min-height: 169px;
+  padding: 57px 0 69px;
+
+  background-color: #1A1A1A;
+}
+
+footer p {
+  font: 300 15px/21px Roboto, sans-serif;
+  color: #888888;
+  text-align: center;
+}
+
+footer a {
+  text-decoration-line: underline;
+  color: #888888;
+}
