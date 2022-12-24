@@ -10,9 +10,7 @@ body {
   color: #4A4A4A;
 }
 
-ul {
-  list-style: none;
-}
+ul {list-style: none;}
 
 img {
   max-width: 100%;
@@ -23,6 +21,9 @@ img {
   width: 1140px;
   margin: 0 auto;
 }
+
+
+/* ============================ PROMO =========================== */
 
 .promo {
   height: 800px;
@@ -122,7 +123,7 @@ h2.title {margin-bottom: 23px;}
   background-color: #EFEFEF;
 }
 
-h2.exp-header {
+h2.plain-header {
   font: 30px/1 Roboto, sans-serif;
   text-align: center;
   text-transform: uppercase;
@@ -131,7 +132,7 @@ h2.exp-header {
   margin-bottom: 18px;
 }
 
-.exp-devider {
+.devider {
   width: 220px;
   height: 7px;
   margin: 0 auto;
@@ -187,4 +188,74 @@ h2.exp-header {
   
   padding-left: 390px;
   margin-bottom: 14px;
+}
+
+
+/* ========================  AFTERWARDS ==================== */
+
+.afterwards {
+  min-height: 447px;
+  padding: 86px 0 68px;
+
+  background: url(img/second_bg.jpg) center top no-repeat;
+}
+
+.afterwards .plain-header {color: #fff;}
+.afterwards .devider {margin-bottom: 39px;}
+
+.benefits {
+  display: flex;
+  justify-content: space-between;
+}
+
+.benefit {width: 200px;}
+
+.icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 118px;
+  height: 118px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  border-radius: 50%;
+
+  background-color: #B4E2FF;
+}
+
+/* .icon-wrapper img {  
+  display: block;
+  margin: 0 auto;
+} */
+
+.benefit p {
+  font: 300 17px/20px Roboto, sans-serif;
+  text-align: center;
+  color: #EFEFEF;
+}
+
+
+/* ======================= GIFT ===================== */
+
+.gift {
+  height: 631px;
+  padding: 85px 0;
+
+  background: #EFEFEF;
+}
+
+.gift-img {
+  display: block;
+  margin: 0 auto;
+
+  margin-bottom: 40px;
+}
+
+.gift-desc {
+  font-size: 30px;
+  line-height: 43px;
+  text-align: center;
+
+  margin-bottom: 45px;
 }
